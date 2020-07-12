@@ -35,4 +35,10 @@ map <right> :vertical resize+5<CR>
 noremap s[ <C-w>t<C-w>K
 noremap s] <C-w>t<C-w>H
 
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
+
 colorscheme koehler
