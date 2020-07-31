@@ -45,6 +45,9 @@ noremap s] <C-w>t<C-w>H
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
+Plug 'bling/vim-bufferline'
+Plug 'bpietravalle/vim-bolt'
+Plug 'ajmwagar/vim-deus'
 
 call plug#end()
 
