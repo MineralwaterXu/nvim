@@ -1,4 +1,3 @@
-
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
 	silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
 				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -45,7 +44,9 @@ noremap s] <C-w>t<C-w>H
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
+Plug 'bling/vim-bufferline'
+Plug 'bpietravalle/vim-bolt'
+Plug 'ajmwagar/vim-deus'
 
 call plug#end()
 
-colorscheme koehler
