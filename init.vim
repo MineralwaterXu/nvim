@@ -44,9 +44,14 @@ noremap s] <C-w>t<C-w>H
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-bufferline'
 Plug 'bpietravalle/vim-bolt'
 Plug 'ajmwagar/vim-deus'
 
 call plug#end()
 
+set termguicolors
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+color deus
+hi NonText ctermfg=gray guifg=grey10
