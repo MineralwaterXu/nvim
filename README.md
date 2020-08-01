@@ -16,7 +16,7 @@ This is my Neovim configuration.
 
 ### 3 Split Screen
 | Shortcut  | Action                                                                       |
-|-----------|------=-----------------------------------------------------------------------|
+|-----------|------------------------------------------------------------------------------|
 | `s` `k`   | Create a new horizontal split screen and place it above the current window   |
 | `s` `j`   | Create a new horizontal split screen and place it below the current window   |
 | `s` `h`   | Create a new vertical split screen and place it left to the current window   |
