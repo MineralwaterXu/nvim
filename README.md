@@ -1,5 +1,10 @@
 # Neovim
 This is my Neovim configuration.
+* [Keyboard Shortcuts](#keyboard-shortcuts)
+	- [1 Basics](#1-basics)
+	- [2 Cursor Movement](#2-cursor-movement)
+	- [3 Split Screen](#3-split-screen)
+* [vim-plug](#vim-plug)
 ## Keyboard Shortcuts
 ### 1 Basics
 **`i`** : switch to **`INSERT`** : mode
