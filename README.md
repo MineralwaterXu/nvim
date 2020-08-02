@@ -21,3 +21,6 @@ This is my Neovim configuration.
 | `s` `j`   | Create a new horizontal split screen and place it below the current window   |
 | `s` `h`   | Create a new vertical split screen and place it left to the current window   |
 | `s` `l`   | Create a new vertical split screen and place it right to the current window  |
+## vim-plug
+### [bufferline](https://github.com/bling/vim-bufferline)
+
