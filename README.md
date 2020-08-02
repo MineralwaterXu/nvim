@@ -27,3 +27,6 @@ This is my Neovim configuration.
 ### [vim-deus](https://github.com/ajmwagar/vim-deus)
 ### [eleline.vim](https://github.com/liuchengxu/eleline.vim)
 ### [vim-devicons](https://github.com/ryanoasis/vim-devicons)
+### [rainbow](https://github.com/luochen1990/rainbow)
+### [vim-xtabline](https://github.com/mg979/vim-xtabline)
+### [terminus](https://github.com/wincent/terminus)
