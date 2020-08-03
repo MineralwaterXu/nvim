@@ -1,5 +1,6 @@
 # Neovim
 This is my Neovim configuration.
+Special thanks to @theniceboy.
 * [Keyboard Shortcuts](#keyboard-shortcuts)
 	- [1 Basics](#1-basics)
 	- [2 Cursor Movement](#2-cursor-movement)
