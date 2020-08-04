@@ -5,6 +5,7 @@
 " ===
 " === Auto load for the first time
 " ===
+
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
 	silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
 				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -16,9 +17,11 @@ endif
 " ====================
 " === Editor Setup ===
 " ====================
+
 " ===
 " === Editor behavior
 " ===
+
 set number
 set relativenumber
 set cursorline
@@ -35,6 +38,7 @@ set smartcase
 " ===
 " === Basic Mappings
 " ===
+
 " set <LEADER> as <SPACE>
 let mapleader=" "
 
@@ -109,13 +113,22 @@ Plug 'bpietravalle/vim-bolt'
 Plug 'ajmwagar/vim-deus'
 
 " Status line
-Plug 'liuchengxu/eleline.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Other visual enhancement
 Plug 'ryanoasis/vim-devicons'
 Plug 'luochen1990/rainbow'
 Plug 'mg979/vim-xtabline'
 Plug 'wincent/terminus'
+
+" Other visual enhancement
+Plug 'ryanoasis/vim-devicons'
+Plug 'luochen1990/rainbow'
+Plug 'mg979/vim-xtabline'
+Plug 'wincent/terminus'
+Plug 'tpope/vim-fugitive'
+
 
 call plug#end()
 set re=0
@@ -151,15 +164,20 @@ hi NonText ctermfg=gray guifg=grey10
 " ===================== Start of Plugin Settings =====================
 
 
+
 " ===
-" === eleline.vim
+" === vim-airline-theme
 " ===
-let g:airline_powerline_fonts = 0
+let g:airline_theme= 'deus'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enable = 1
+let g:airline#extensions#branch#enable = 1
 
 " ===
 " === rainbow
 " ===
 let g:rainbow_active = 1
+
 
 
 " ===================== End of Plugin Settings =====================
