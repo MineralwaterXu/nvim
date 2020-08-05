@@ -122,12 +122,6 @@ Plug 'luochen1990/rainbow'
 Plug 'mg979/vim-xtabline'
 Plug 'wincent/terminus'
 
-" Other visual enhancement
-Plug 'ryanoasis/vim-devicons'
-Plug 'luochen1990/rainbow'
-Plug 'mg979/vim-xtabline'
-Plug 'wincent/terminus'
-Plug 'tpope/vim-fugitive'
 
 
 call plug#end()
