@@ -38,3 +38,6 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 ### [rainbow](https://github.com/luochen1990/rainbow)
 ### [vim-xtabline](https://github.com/mg979/vim-xtabline)
 ### [terminus](https://github.com/wincent/terminus)
+### [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
+### [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
+### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
