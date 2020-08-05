@@ -123,7 +123,7 @@ Plug 'mg979/vim-xtabline'
 Plug 'wincent/terminus'
 
 " Markdown
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for': ['markdown', 'vim-plug'] }
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug'] }
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }
 Plug 'mzlogin/vim-markdown-toc', { 'for': ['gitignore', 'markdown', 'vim-plug'] }
 
@@ -182,8 +182,8 @@ let g:rainbow_active = 1
 " ===
 " === MarkdownPreview
 " ===
-let g:mkdp_auto_start = 0
-let g:mkdp_auto_close = 1
+let g:mkdp_auto_start = 1
+let g:mkdp_auto_close = 0
 let g:mkdp_refresh_slow = 1
 let g:mkdp_command_for_global = 0
 let g:mkdp_open_to_the_world = 0
