@@ -101,6 +101,14 @@ noremap s] <C-w>t<C-w>H
 
 
 " ===
+" === MarkdownPreview Mappings
+" ===
+nmap <LEADER>mp <Plug>MarkdownPreview
+nmap <LEADER>ms <Plug>MarkdownPreviewStop
+
+
+
+" ===
 " === Install Plugins with Vim-Plug
 " ===
 
@@ -182,7 +190,7 @@ let g:rainbow_active = 1
 " ===
 " === MarkdownPreview
 " ===
-let g:mkdp_auto_start = 1
+let g:mkdp_auto_start = 0
 let g:mkdp_auto_close = 0
 let g:mkdp_refresh_slow = 1
 let g:mkdp_command_for_global = 0
