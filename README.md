@@ -2,11 +2,28 @@
 This is my NeoVim configuration.
 
 Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](https://colemak.com/) user(link [here](https://github.com/theniceboy/nvim)).
+
+<!-- TOC GFM -->
+
 * [Keyboard Shortcuts](#keyboard-shortcuts)
 	- [1 Basics](#1-basics)
 	- [2 Cursor Movement](#2-cursor-movement)
 	- [3 Split Screen](#3-split-screen)
 * [vim-plug](#vim-plug)
+	- [vim-bufferline](#vim-bufferline)
+	- [vim-bolt](#vim-bolt)
+	- [vim-deus](#vim-deus)
+	- [vim-airline](#vim-airline)
+	- [vim-airline-themes](#vim-airline-themes)
+	- [vim-devicons](#vim-devicons)
+	- [rainbow](#rainbow)
+	- [vim-xtabline](#vim-xtabline)
+	- [terminus](#terminus)
+	- [markdown-preview.nvim](#markdown-previewnvim)
+	- [vim-table-mode](#vim-table-mode)
+	- [vim-markdown-toc](#vim-markdown-toc)
+
+<!-- /TOC -->
 ## Keyboard Shortcuts
 ### 1 Basics
 **`i`** : switch to **`INSERT`** : mode
