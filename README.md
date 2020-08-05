@@ -1,7 +1,7 @@
-# Neovim
-This is my Neovim configuration.
+# The NeoVim Config
+This is my NeoVim configuration.
 
-Special thanks to @theniceboy.
+Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](https://colemak.com/) user(link [here](https://github.com/theniceboy/nvim)).
 * [Keyboard Shortcuts](#keyboard-shortcuts)
 	- [1 Basics](#1-basics)
 	- [2 Cursor Movement](#2-cursor-movement)
