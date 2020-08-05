@@ -28,7 +28,7 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 <!-- /TOC -->
 ## Keyboard Shortcuts
 ### 1 Basics
-In my configuration, `<SPACE>` is the `<LEADER>` key, which was `\` by default.
+In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** by default.
 
 **`i`** : switch to **`INSERT`** : mode
 
