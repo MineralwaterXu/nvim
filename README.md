@@ -9,6 +9,8 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 	- [1 Basics](#1-basics)
 	- [2 Cursor Movement](#2-cursor-movement)
 	- [3 Split Screen](#3-split-screen)
+	- [4 Open NeoVim Config](#4-open-neovim-config)
+	- [5 MarkdownPreview Mappings](#5-markdownpreview-mappings)
 * [vim-plug](#vim-plug)
 	- [vim-bufferline](#vim-bufferline)
 	- [vim-bolt](#vim-bolt)
@@ -26,6 +28,8 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 <!-- /TOC -->
 ## Keyboard Shortcuts
 ### 1 Basics
+In my configuration, `<SPACE>` is the `<LEADER>` key, which was `\` by default.
+
 **`i`** : switch to **`INSERT`** : mode
 
 **`Q`** : quit current Neovim window (same as command `:q` in default Settings)
@@ -45,6 +49,15 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 | `s` `j`   | Create a new horizontal split screen and place it below the current window.   |
 | `s` `h`   | Create a new vertical split screen and place it left to the current window.   |
 | `s` `l`   | Create a new vertical split screen and place it right to the current window.  |
+ 
+### 4 Open NeoVim Config
+`<LEADER>` `rc` : open the NeoVim configuration anytime 
+
+### 5 MarkdownPreview Mappings
+`<LEADER>` `mp` : open the MarkdownPreview(same as command `:MarkdownPreview` in default Settings) 
+
+`<LEADER>` `ms` : close the MarkdownPreview(same as command `:MarkdownPreviewStop` in default Settings)
+
 ## vim-plug
 ### [vim-bufferline](https://github.com/bling/vim-bufferline)
 ### [vim-bolt](https://github.com/bpietravalle/vim-bolt)
