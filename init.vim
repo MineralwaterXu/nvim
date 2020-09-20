@@ -135,6 +135,15 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }
 Plug 'mzlogin/vim-markdown-toc', { 'for': ['gitignore', 'markdown', 'vim-plug'] }
 
+" LaTeX
+Plug 'lervag/vimtex'
+
+" FZF
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" Undo Tree
+Plug 'mbbill/undotree'
 
 
 call plug#end()
@@ -228,6 +237,34 @@ noremap <LEADER>tm :TableModeToggle<CR>
 let g:vmt_cycle_list_item_markers = 1
 let g:vmt_fence_text = 'TOC'
 let g:vmt_fence_closing_text = '/TOC'
+
+
+
+
+" ===
+" === vimtex
+" ===
+let g:tex_flavor = 'latex'
+autocmd TextChanged,TextChangedI <buffer> silent write
+
+
+
+" ===
+" === Undotree
+" ===
+noremap U :UndotreeToggle<CR>
+let g:undotree_DiffAutoOpen = 1
+let g:undotree_SetFocusWhenToggle = 1
+let g:undotree_ShortIndicators = 1
+let g:undotree_WindowLayout = 2
+let g:undotree_DiffpanelHeight = 8
+let g:undotree_SplitWidth = 24
+function g:Undotree_CustomMap()
+	nmap <buffer> k <plug>UndotreeNextState
+	nmap <buffer> j <plug>UndotreePreviousState
+	nmap <buffer> K 5<plug>UndotreeNextState
+	nmap <buffer> J 5<plug>UndotreePreviousState
+endfunc
 " ===================== End of Plugin Settings =====================
 
 
