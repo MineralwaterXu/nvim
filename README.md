@@ -1,4 +1,4 @@
-# The NeoVim Config
+# The NeoVim Config (under construction ...)
 This is my NeoVim configuration.
 
 Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](https://colemak.com/) user(link [here](https://github.com/theniceboy/nvim)).
@@ -11,6 +11,8 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 	- [3 Split Screen](#3-split-screen)
 	- [4 Open NeoVim Config](#4-open-neovim-config)
 	- [5 MarkdownPreview Mappings](#5-markdownpreview-mappings)
+	- [6 Fuzzy File Finder](#6-fuzzy-file-finder)
+	- [7 Undo Tree](#7-undo-tree)
 * [vim-plug](#vim-plug)
 	- [vim-bufferline](#vim-bufferline)
 	- [vim-bolt](#vim-bolt)
@@ -24,8 +26,11 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 	- [markdown-preview.nvim](#markdown-previewnvim)
 	- [vim-table-mode](#vim-table-mode)
 	- [vim-markdown-toc](#vim-markdown-toc)
+	- [fzf.vim](#fzfvim)
+	- [undotree](#undotree)
 
 <!-- /TOC -->
+
 ## Keyboard Shortcuts
 ### 1 Basics
 In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** by default.
@@ -58,6 +63,15 @@ In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** 
 
 `<LEADER>` `ms` : close the MarkdownPreview(same as command `:MarkdownPreviewStop` in default Settings)
 
+### 6 Fuzzy File Finder
+
+### 7 Undo Tree
+| Shortcut      | Action        |
+|---------------|---------------|
+| `Shift` + `u` | Open Undotree |
+| `k`           | Newer Version |
+| `j`           | Older Version |
+
 ## vim-plug
 ### [vim-bufferline](https://github.com/bling/vim-bufferline)
 ### [vim-bolt](https://github.com/bpietravalle/vim-bolt)
@@ -71,3 +85,5 @@ In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** 
 ### [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 ### [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 ### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
+### [fzf.vim](https://github.com/junegunn/fzf.vim)
+### [undotree](https://github.com/mbbill/undotree)
