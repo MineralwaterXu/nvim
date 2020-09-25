@@ -273,7 +273,10 @@ endfunc
 " ===
 " === coc.nvim
 " ===
-let g:coc_global_extensions = ['coc-json', 'coc-vimlsp']
+let g:coc_global_extensions = [
+        \ 'coc-json',
+        \ 'coc-vimlsp',
+        \ 'coc-jedi']
 
 " TextEdit might fail if hidden is not set.
 set hidden
