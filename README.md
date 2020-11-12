@@ -75,15 +75,15 @@ In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** 
 | `j`           | Older Version |
 
 ### 8 Vim Visual Multi
-| Shortcut                        | Action                                                   |
-|---------------------------------|----------------------------------------------------------|
-| `Ctrl` + `n`                    | Select Words(like `Ctrl` + `d` in Sublime Text/VS Code). |
-| `Ctrl` + `Down` / `Ctrl` + `Up` | Create cursors vertically.                               |
-| `Shift` + `Arrows`              | Select one character at a time.                          |
-| `n` / `N`                       | Get next/previous occurence.                             |
-| `[` / `]`                       | Select next/previous cursor.                             |
-| `q`                             | Skip current and get next occurence.                     |
-| `Q`                             | Remove current cursor/selection.                         |
+| Shortcut                        | Action                                                     |
+|---------------------------------|------------------------------------------------------------|
+| `Ctrl` + `n`                    | Select Words(like `Ctrl` + `d` in Sublime Text / VS Code). |
+| `Ctrl` + `Down` / `Ctrl` + `Up` | Create cursors vertically.                                 |
+| `Shift` + `Arrows`              | Select one character at a time.                            |
+| `n` / `N`                       | Get next / previous occurence.                             |
+| `[` / `]`                       | Select next / previous cursor.                             |
+| `q`                             | Skip current and get next occurence.                       |
+| `Q`                             | Remove current cursor / selection.                         |
 
 ## vim-plug
 ### [vim-bufferline](https://github.com/bling/vim-bufferline)
