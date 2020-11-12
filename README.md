@@ -13,6 +13,7 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 	- [5 MarkdownPreview Mappings](#5-markdownpreview-mappings)
 	- [6 Fuzzy File Finder](#6-fuzzy-file-finder)
 	- [7 Undo Tree](#7-undo-tree)
+	- [8 Vim Visual Multi](#8-vim-visual-multi)
 * [vim-plug](#vim-plug)
 	- [vim-bufferline](#vim-bufferline)
 	- [vim-bolt](#vim-bolt)
@@ -28,6 +29,7 @@ Special thanks to @theniceboy, who edited a NeoVim configuration for [Colemak](h
 	- [vim-markdown-toc](#vim-markdown-toc)
 	- [fzf.vim](#fzfvim)
 	- [undotree](#undotree)
+	- [vim-visual-multi](#vim-visual-multi)
 
 <!-- /TOC -->
 
@@ -72,6 +74,17 @@ In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** 
 | `k`           | Newer Version |
 | `j`           | Older Version |
 
+### 8 Vim Visual Multi
+| Shortcut                        | Action                                                   |
+|---------------------------------|----------------------------------------------------------|
+| `Ctrl` + `n`                    | Select Words(like `Ctrl` + `d` in Sublime Text/VS Code). |
+| `Ctrl` + `Down` / `Ctrl` + `Up` | Create cursors vertically.                               |
+| `Shift` + `Arrows`              | Select one character at a time.                          |
+| `n` / `N`                       | Get next/previous occurence.                             |
+| `[` / `]`                       | Select next/previous cursor.                             |
+| `q`                             | Skip current and get next occurence.                     |
+| `Q`                             | Remove current cursor/selection.                         |
+
 ## vim-plug
 ### [vim-bufferline](https://github.com/bling/vim-bufferline)
 ### [vim-bolt](https://github.com/bpietravalle/vim-bolt)
@@ -87,3 +100,4 @@ In my configuration, **`<SPACE>`** is the **`<LEADER>`** key, which was **`\`** 
 ### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
 ### [fzf.vim](https://github.com/junegunn/fzf.vim)
 ### [undotree](https://github.com/mbbill/undotree)
+### [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
