@@ -145,6 +145,8 @@ Plug 'junegunn/fzf.vim'
 " Undo Tree
 Plug 'mbbill/undotree'
 
+"  Vim Visual Multi
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 set re=0
